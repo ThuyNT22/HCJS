@@ -79,7 +79,7 @@ function countdown() {
     xyz.innerText += " "+n;
     n=nextPrime(n);
     m++;
-    if(m>=10){
+    if(m>=20){
         clearInterval(si);
     }
 }
